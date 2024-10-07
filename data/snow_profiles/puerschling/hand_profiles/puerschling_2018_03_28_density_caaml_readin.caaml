@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caaml:SnowProfile gml:id="SLF_4907150958" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns:caaml="http://caaml.org/Schemas/SnowProfileIACS/v6.0.3" xmlns:snp="http://www.slf.ch/snowpack/1.0" xmlns:slf="http://www.slf.ch/snowprofile/1.0">
+  <caaml:timeRef>
+    <caaml:recordTime>
+      <caaml:TimeInstant>
+        <caaml:timePosition>2024-06-12T15:38:32+01:00</caaml:timePosition>
+      </caaml:TimeInstant>
+    </caaml:recordTime>
+    <caaml:dateTimeReport>2024-06-12T15:38:32+01:00</caaml:dateTimeReport>
+  </caaml:timeRef>
+  <caaml:srcRef>
+    <caaml:Operation gml:id="OPERATION_ID">
+      <caaml:name>SNOWPACK v3.7.0 compiled on Apr 26 2024, 08:46:10. user: machineone</caaml:name>
+    </caaml:Operation>
+  </caaml:srcRef>
+  <caaml:locRef gml:id="SLF_4907150958_1">
+    <caaml:name>Pürschling:StudyPlot_MST</caaml:name>
+    <caaml:obsPointSubType></caaml:obsPointSubType>
+    <caaml:validElevation>
+      <caaml:ElevationPosition uom="m">
+        <caaml:position>1370</caaml:position>
+      </caaml:ElevationPosition>
+    </caaml:validElevation>
+    <caaml:validAspect>
+      <caaml:AspectPosition>
+        <caaml:position>N</caaml:position>
+      </caaml:AspectPosition>
+    </caaml:validAspect>
+    <caaml:validSlopeAngle>
+      <caaml:SlopeAnglePosition uom="deg">
+        <caaml:position>0</caaml:position>
+      </caaml:SlopeAnglePosition>
+    </caaml:validSlopeAngle>
+    <caaml:pointLocation>
+      <gml:Point gml:id="SLF_4907150958_2" srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2">
+        <gml:pos>47.595672 10.994210</gml:pos>
+      </gml:Point>
+    </caaml:pointLocation>
+  </caaml:locRef>
+  <caaml:snowProfileResultsOf>
+    <caaml:SnowProfileMeasurements dir="top down">
+      <caaml:metaData>
+        <caaml:customData>
+          <snp:Albedo>0.6000</snp:Albedo>
+          <snp:SoilAlb>0.2000</snp:SoilAlb>
+          <snp:BareSoil_z0 uom="m">0.0200</snp:BareSoil_z0>
+          <snp:CanopyHeight uom="m">0.0000</snp:CanopyHeight>
+          <snp:CanopyLAI>0.0000</snp:CanopyLAI>
+          <snp:CanopyBasalArea>0.0000</snp:CanopyBasalArea>
+          <snp:CanopyDirectThroughfall>0.0000</snp:CanopyDirectThroughfall>
+          <snp:WindScalingFactor>1.0000</snp:WindScalingFactor>
+          <snp:ErosionLevel>13</snp:ErosionLevel>
+          <snp:TimeCountDeltaHS>0.0000</snp:TimeCountDeltaHS>
+        </caaml:customData>
+      </caaml:metaData>
+      <caaml:profileDepth uom="cm">82.0000</caaml:profileDepth>
+      <caaml:snowPackCond>
+        <caaml:hS>
+          <caaml:Components>
+            <caaml:height uom="cm">82.0000</caaml:height>
+            <caaml:waterEquivalent uom="kgm-2">375.24</caaml:waterEquivalent>
+          </caaml:Components>
+        </caaml:hS>
+      </caaml:snowPackCond>
+      <caaml:stratProfile>
+        <caaml:stratMetaData />
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.0625</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>   2</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>   14</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">0.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:grainFormPrimary>RG</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>RG</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>0.500</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">V</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.0625</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>   2</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>   13</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">2.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:grainFormPrimary>RG</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>RG</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>0.500</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.0625</snp:bondSize>
+              <snp:dendricity>0.50</snp:dendricity>
+              <snp:sphericity>0.50</snp:sphericity>
+              <snp:marker>   0</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>   12</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">4.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">7.0000</caaml:thickness>
+          <caaml:grainFormPrimary>DF</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>DF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>0.500</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.1250</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>  12</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>   11</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">11.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">5.0000</caaml:thickness>
+          <caaml:grainFormPrimary>MF</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>MF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>1.000</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.0625</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>   2</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>   10</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">16.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:grainFormPrimary>RG</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>RG</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>0.500</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.2500</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>  22</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>    9</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">18.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">5.0000</caaml:thickness>
+          <caaml:grainFormPrimary>MFcr</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>MF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>2.000</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.3750</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>   7</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>    8</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">23.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">1.0000</caaml:thickness>
+          <caaml:grainFormPrimary>IF</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>IF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>3.000</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.2500</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>  22</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>    7</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">24.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">15.0000</caaml:thickness>
+          <caaml:grainFormPrimary>MFcr</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>MF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>2.000</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.1250</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>  22</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>    6</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">39.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">8.0000</caaml:thickness>
+          <caaml:grainFormPrimary>MFcr</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>MF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>1.000</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.0625</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>  22</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>    5</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">47.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">6.0000</caaml:thickness>
+          <caaml:grainFormPrimary>MFcr</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>MF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>0.500</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.1250</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>  22</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>    4</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">53.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">3.0000</caaml:thickness>
+          <caaml:grainFormPrimary>MFcr</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>MF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>1.000</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.3750</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>  12</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>    3</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">56.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:grainFormPrimary>MF</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>MF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>3.000</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.2500</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>  12</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>    2</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">58.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">14.0000</caaml:thickness>
+          <caaml:grainFormPrimary>MF</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>MF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>2.000</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">D</caaml:wetness>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:metaData>
+            <caaml:customData>
+              <snp:phiSoil>0.0000</snp:phiSoil>
+              <snp:SoilRho uom="kgm-3">0.0000</snp:SoilRho>
+              <snp:SoilK uom="Wm-1s-1">0.0000</snp:SoilK>
+              <snp:SoilC uom="Jkg-1">0.0000</snp:SoilC>
+              <snp:bondSize>0.1250</snp:bondSize>
+              <snp:dendricity>0.00</snp:dendricity>
+              <snp:sphericity>1.00</snp:sphericity>
+              <snp:marker>  12</snp:marker>
+              <snp:SurfaceHoarMass uom="kgm-2">0.0000</snp:SurfaceHoarMass>
+              <snp:ne>1</snp:ne>
+              <snp:StressRate uom="Nm-2s-1">0.0000</snp:StressRate>
+              <snp:Metamorphism>0.0000</snp:Metamorphism>
+              <snp:ID>    1</snp:ID>
+            </caaml:customData>
+          </caaml:metaData>
+          <caaml:depthTop uom="cm">72.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">10.0000</caaml:thickness>
+          <caaml:grainFormPrimary>MF</caaml:grainFormPrimary>
+          <caaml:grainFormSecondary>MF</caaml:grainFormSecondary>
+          <caaml:grainSize uom="mm">
+            <caaml:Components>
+              <caaml:avg>1.000</caaml:avg>
+            </caaml:Components>
+          </caaml:grainSize>
+          <caaml:validFormationTime>
+            <caaml:TimeInstant>
+              <caaml:timePosition>2018-03-27T10:48:18+00:00</caaml:timePosition>
+            </caaml:TimeInstant>
+          </caaml:validFormationTime>
+          <caaml:hardness uom="">F</caaml:hardness>
+          <caaml:wetness uom="">W</caaml:wetness>
+        </caaml:Layer>
+      </caaml:stratProfile>
+      <caaml:tempProfile>
+        <caaml:tempMetaData />
+        <caaml:Obs>
+          <caaml:depth uom="cm">0.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">0.000</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">2.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.009</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">4.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.018</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">11.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.050</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">16.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.073</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">18.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.082</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">23.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.105</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">24.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.110</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">39.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.185</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">47.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.150</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">53.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.090</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">56.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.060</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">58.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">-0.040</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">72.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">0.000</caaml:snowTemp>
+        </caaml:Obs>
+        <caaml:Obs>
+          <caaml:depth uom="cm">82.0000</caaml:depth>
+          <caaml:snowTemp uom="degC">0.000</caaml:snowTemp>
+        </caaml:Obs>
+      </caaml:tempProfile>
+      <caaml:densityProfile>
+        <caaml:densityMetaData>
+          <caaml:methodOfMeas>other</caaml:methodOfMeas>
+        </caaml:densityMetaData>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">0.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">143.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">2.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">219.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">4.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">7.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">232.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">11.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">5.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">518.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">16.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">219.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">18.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">5.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">518.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">23.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">1.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">910.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">24.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">15.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">518.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">39.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">8.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">518.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">47.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">6.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">518.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">53.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">3.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">518.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">56.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">520.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">58.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">14.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">518.00</caaml:density>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">72.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">10.0000</caaml:thickness>
+          <caaml:density uom="kgm-3">378.00</caaml:density>
+        </caaml:Layer>
+      </caaml:densityProfile>
+      <caaml:lwcProfile>
+        <caaml:lwcMetaData>
+          <caaml:methodOfMeas>other</caaml:methodOfMeas>
+        </caaml:lwcMetaData>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">0.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">8.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">2.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">4.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">7.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">11.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">5.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">16.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">18.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">5.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">23.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">1.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">24.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">15.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">39.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">8.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">47.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">6.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">53.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">3.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">56.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">58.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">14.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">0.00</caaml:lwc>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">72.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">10.0000</caaml:thickness>
+          <caaml:lwc uom="% by Vol">3.00</caaml:lwc>
+        </caaml:Layer>
+      </caaml:lwcProfile>
+      <caaml:specSurfAreaProfile>
+        <caaml:specSurfAreaMetaData>
+          <caaml:methodOfMeas>other</caaml:methodOfMeas>
+        </caaml:specSurfAreaMetaData>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">0.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">83.92</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">2.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">54.79</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">4.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">7.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">114.94</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">11.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">5.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">11.58</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">16.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">54.79</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">18.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">5.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">5.79</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">23.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">1.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">2.20</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">24.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">15.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">5.79</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">39.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">8.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">11.58</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">47.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">6.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">23.17</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">53.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">3.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">11.58</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">56.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">3.85</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">58.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">14.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">5.79</caaml:specSurfArea>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">72.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">10.0000</caaml:thickness>
+          <caaml:specSurfArea uom="m2kg-1">15.87</caaml:specSurfArea>
+        </caaml:Layer>
+      </caaml:specSurfAreaProfile>
+      <caaml:strengthProfile>
+        <caaml:strengthMetaData>
+          <caaml:strengthType>shear</caaml:strengthType>
+          <caaml:methodOfMeas>other</caaml:methodOfMeas>
+        </caaml:strengthMetaData>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">0.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">2.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">4.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">7.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">11.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">5.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">16.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">18.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">5.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">23.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">1.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">24.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">15.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">39.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">8.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">47.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">6.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">53.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">3.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">56.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">2.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">58.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">14.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+        <caaml:Layer>
+          <caaml:depthTop uom="cm">72.0000</caaml:depthTop>
+          <caaml:thickness uom="cm">10.0000</caaml:thickness>
+          <caaml:strengthValue uom="Nm-2">0.00</caaml:strengthValue>
+        </caaml:Layer>
+      </caaml:strengthProfile>
+    </caaml:SnowProfileMeasurements>
+  </caaml:snowProfileResultsOf>
+</caaml:SnowProfile>
